@@ -1,0 +1,59 @@
+@media (min-width: 0px) and (max-width: 1000px) {
+    header nav ul {
+        width: 100%;
+    }
+
+    .h-logo {
+        width: 100%;
+    }
+
+    header .banner .banner-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .banner .banner-image img {
+        width: 100%;
+    }
+
+    header .banner .bannr-text {
+        width: 100%;
+    }
+
+    header .banner {
+        padding: 0px 20px;
+    }
+
+    header nav {
+        padding: 0px;
+    }
+    /* about */
+    .about{
+        margin: 0px;
+        padding: 20px;
+    }
+    /* experience */
+    .experience{
+        margin: 0px;
+        padding: 20px;
+    }
+
+}
+
+
+/* 1100 */
+/* @media (min-width: 500px) and (max-width: 1100px) {
+    header .banner .banner-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .banner .bannr-text {
+        width: 100%;
+    }
+    header .banner {
+        padding:0px 20px;
+    }
+} */
