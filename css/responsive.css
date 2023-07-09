@@ -38,22 +38,18 @@
         margin: 0px;
         padding: 20px;
     }
+    .resume-container .resume-first-sec , .resume-container .resume-secend-sec {
+        width: 100%;
+    }
+    .resume-container{
+        margin: 0px;
+        padding: 25px;
+    }
+    .resume-container .resume-first-sec p , .resume-container .resume-secend-sec p {
+        padding: 0px;
+    }
+    .footer-section {
+        gap: 5rem;
+    }
 
 }
-
-
-/* 1100 */
-/* @media (min-width: 500px) and (max-width: 1100px) {
-    header .banner .banner-image {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    header .banner .bannr-text {
-        width: 100%;
-    }
-    header .banner {
-        padding:0px 20px;
-    }
-} */

@@ -226,3 +226,127 @@ header .banner p {
     font-weight: 700;
     margin: 20px 0px;
 }
+
+/* resume section */
+
+.resume-section>h4 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-container {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 230px;
+
+}
+
+.resume-container .resume-first-sec,
+.resume-container .resume-secend-sec {
+    width: 50%;
+    padding: 10px;
+}
+
+
+.resume-container .resume-first-sec h5,
+.resume-container .resume-secend-sec h5 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 23px 0px;
+}
+
+.resume-container .resume-first-sec h6,
+.resume-container .resume-secend-sec h6 {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 6px 0px;
+}
+
+.resume-container .resume-first-sec h4,
+.resume-container .resume-secend-sec h4 {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.resume-container .resume-first-sec p,
+.resume-container .resume-secend-sec p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 40px 0px;
+    padding-right: 149px;
+}
+
+/* footer */
+.footer-section {
+    background-color: var(--section-bg-color);
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 130px;
+    margin-top: 90px;
+}
+
+.footer-section .footer-text h4 {
+    color: #181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-section .footer-text p {
+    color: var(--all-p-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0px;
+}
+
+.footer-section .footer-text i {
+    color: var(--button-color);
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.footer-section form {
+    width: 500px;
+}
+
+.footer-section form h4 {
+    color: #181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-section .footer-form form input,
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 18px;
+    margin: 10px 0px;
+}
+
+input[type=submit] {
+    width: 100px !important;
+    background-color: var(--button-color) !important;
+}
